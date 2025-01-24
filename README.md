@@ -1,4 +1,4 @@
-This is an OpenAi based grammar checker  project
+This is an OpenAi based grammar correction  project
 used [Next.js](https://nextjs.org)
 
 
