@@ -3,7 +3,7 @@
 export default function Output({inputValue, incorrectWords}) {
   return (
     <>
-      <h2 className='text-lg font-semibold text-gray-900 dark:text-white mb-4'>
+      <h2 className='text-lg font-semibold text-gray-700 dark:text-white mb-4'>
         Output
       </h2>
       {incorrectWords.length > 0 ? (inputValue.split(' ').map((word, index) => {
@@ -15,12 +15,12 @@ export default function Output({inputValue, incorrectWords}) {
           );
         } else {
           return (
-            <span key={index} className='text-white font-bold'>
+            <span key={index} className='text-gray-500 font-bold'>
                       {word}{' '}
             </span>
           );
         }
-      })) : <span className='text-white font-bold'>{inputValue}</span>}
+      })) : <span className='text-gray-500 font-bold'>{inputValue}</span>}
     </>
   );
 }

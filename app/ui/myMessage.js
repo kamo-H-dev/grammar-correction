@@ -8,7 +8,7 @@ export default function MyMessage({inputValue, setInputValue}) {
         htmlFor='message'
         className='block mb-4 text-lg font-medium text-gray-900 dark:text-white'
       >
-        Your message
+        Text
       </label>
       <textarea
         onChange={(e) => {
